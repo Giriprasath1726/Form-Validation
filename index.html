@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-validation</title>
+    <link rel="stylesheet" href="./Icon.png" alt="image-icon">
+    <link rel="stylesheet" href="sytle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Create your Account</h1>
+        <form id="form-validate">
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="text" id="userName">
+                <span id="uName-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="text" id="email">
+                <span id="mail-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" id="password">
+                <span id="password-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Confirm Passwword</label>
+                <input type="password" id="confirmPassword">
+                <span id="cPassword-error"></span>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

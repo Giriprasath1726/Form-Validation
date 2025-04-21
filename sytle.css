@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(70, 70, 150);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#form-validate {
+    border: 1px solid #ddd;
+    width: 35vw;
+    min-width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: grid;
+    padding: 30px;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#form-validate .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-validate .form-group label {
+    font-size: 18px;
+    color: rgb(70, 70, 150);
+    margin-bottom: 8px;
+}
+
+#form-validate .form-group input {
+    height: 40px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+#form-validate .form-group input:focus {
+    border-color: rgb(70, 70, 150);
+}
+
+#form-validate .form-group span {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#form-validate button {
+    height: 45px;
+    background-color: rgb(70, 70, 150);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-validate button:hover {
+    background-color: rgb(50, 50, 130);
+}
+
+#form-validate button:active {
+    background-color: rgb(30, 30, 110);
+}
